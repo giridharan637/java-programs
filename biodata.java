@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 class biodata {
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
@@ -17,7 +18,7 @@ class biodata {
         System.out.println("your initial is " + ch);
 
         System.out.println("Enter your phone number: ");
-        String phone = obj.nextLine();
+        long phone = obj.nextLong();
         System.out.print("Enter your phone number: " + phone);
 
         obj.close();
